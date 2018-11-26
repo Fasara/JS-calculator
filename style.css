@@ -1,0 +1,45 @@
+#calculator-container {
+	background-color: purple;
+	height: 500px;
+	width: 280px;
+	border-radius: 10px;
+	padding: 10px 0 0 0;
+	margin: 20px;
+
+}
+
+#display, #result {
+	height: 50px;
+	width: 85%;
+	font-size: 20px;
+	border: none;
+	border-radius: 8px;
+	background-color: white;
+	text-align: right;
+	display: block;
+	margin-left: 5%;
+	margin-top: 10px;
+	padding: 0 5% 0 0;
+}
+
+#result {
+	background-color: lightblue;
+}
+
+
+input[type=button] {
+	height: 60px;
+	width: 100%;
+	background: pink;
+	margin: 5px;
+	border-radius: 8px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+div .row {
+	margin-right: 5px;
+	margin-left: 0px;
+}
+
+

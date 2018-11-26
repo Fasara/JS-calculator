@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.js"
+  integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+  crossorigin="anonymous"></script>
+  	<script type="text/javascript" src="calculator.js"></script>
+	<title>Calculator</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+	<div id="calculator-container">
+		<input type="text" id="display" placeholder="0" disabled>
+		<input type="text" id="result" readonly="readonly">
+
+		<div id="grid-buttons">
+
+			<div class="row">
+				<div class="col-6">
+					<input type="button" value=" &#8592; " id="input" onclick="backspace()">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-3">
+					<input class="calc-number-button" type="button" value="1">
+				</div>
+				<div class="col-3">
+					<input class="calc-number-button" type="button" value="2">
+				</div>
+				<div class="col-3">
+					<input class="calc-number-button" type="button" value="3">
+				</div>
+				<div class="col-3">
+					<input class="calc-operand-button" type="button" value="+">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-3">
+					<input class="calc-number-button" type="button" value="4">
+				</div>
+				<div class="col-3">
+					<input class="calc-number-button" type="button" value="5">
+				</div>
+				<div class="col-3">
+					<input class="calc-number-button" type="button" value="6">
+				</div>
+				<div class="col-3">
+					<input class="calc-operand-button" type="button" value="-">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-3">
+					<input class="calc-number-button" type="button" value="7">
+				</div>
+				<div class="col-3">
+					<input class="calc-number-button" type="button" value="8">
+				</div>
+				<div class="col-3">
+					<input class="calc-number-button" type="button" value="9">
+				</div>
+				<div class="col-3">
+					<input class="calc-operand-button" id="multiplyOperand" type="button" value="x">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-3">
+					<input class="calc-number-button" type="button" value="0">
+				</div>
+				<div class="col-3">
+					<input class="compute" type="button" value="=" id="equal" style="color: purple">
+				</div>
+				<div class="col-3">
+					<input class="calc-operand-button" type="button" value="/">
+				</div>
+				<div class="col-3">
+					<input type="button" value="CE" class="clear" id="clearall">
+				</div>
+			</div>
+		</div>	
+	</div>
+
+</body>
+</html>
